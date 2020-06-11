@@ -43,7 +43,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Alan Robson',
-        message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+        message: 'All you need to do is provide a location, e.g. Melbourne, Vic.'
     });
 });
 
